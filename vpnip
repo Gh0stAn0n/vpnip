@@ -17,4 +17,3 @@ echo ""
 echo -e " - ${ORANGE}LocalHost${STOP} ip address (${PURPLE}eth0${STOP}): ${BLUE}$eth0${STOP}"
 echo ""
 echo -e " - ${ORANGE}VPN${STOP} ip address (${PURPLE}tun0${STOP}): ${BLUE}$tun0${STOP}"
-
