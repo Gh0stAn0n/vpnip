@@ -1,0 +1,20 @@
+#!/bin/bash
+
+ORANGE='\e[1;93m'
+PURPLE='\e[1;95m'
+BLUE='\e[1;94m'
+STOP='\e[0m'
+
+eth0=$(ip a show eth0 | grep inet | head -1 | cut -d"/" -f1 | cut -d" "  -f6)
+tun0=$(ip a show tun0 2>&1 | grep inet | head -1 | cut -d"/" -f1 | cut -d" "  -f6)
+
+	if [ -z "$tun0" ]
+	then
+	tun0="disabled"
+	fi
+
+echo ""
+echo -e " - ${ORANGE}LocalHost${STOP} ip address (${PURPLE}eth0${STOP}): ${BLUE}$eth0${STOP}"
+echo ""
+echo -e " - ${ORANGE}VPN${STOP} ip address (${PURPLE}tun0${STOP}): ${BLUE}$tun0${STOP}"
+
