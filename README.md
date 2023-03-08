@@ -31,8 +31,6 @@ launch the script by typing:
 
 ┌──(user㉿kali)-[~]
 
-|
-
 └─$ bash vpnip.sh
 
 ┌──(user㉿kali)-[~]
