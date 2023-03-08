@@ -21,7 +21,7 @@ The vpnip command is a simple Linux command that helps you retrieve the eth0 IP 
 
 - can be shown inside of the metasploit framework.
 
-- vpnip.sh will get remove automatically.
+- no files will remain on the current directory.
 
 > DISADVANTAGES:
 
@@ -29,7 +29,7 @@ The vpnip command is a simple Linux command that helps you retrieve the eth0 IP 
 
 ### requirement
 
-must download first OpenVPN, to do so type:
+must download OpenVPN first, to do so type:
 
 └─$ sudo apt install openvpn
 
