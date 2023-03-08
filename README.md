@@ -29,9 +29,11 @@ The vpnip command is a simple Linux command that helps you retrieve the eth0 IP 
 
 launch the script by typing:
 
-bash vpnip.sh
+┌──(user㉿kali)-[~]
+└─$ bash vpnip.sh
 
-exit
+┌──(user㉿kali)-[~]
+└─$ exit
 
 ### Download
 
