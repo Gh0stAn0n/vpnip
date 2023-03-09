@@ -11,7 +11,7 @@ check=$(cat ~/.bashrc)
 
 	if [[ $check = *vpnip* ]]
 	then
-	echo -e " ${ORANGE}-${STOP} vpnip command has been added already, file removal in progress..."
+	echo -e " ${ORANGE}-${STOP} vpnip command has already been added, file removal in progress..."
 	echo ""
 	echo -e " ${ORANGE}-${STOP} if you encounter any issue with the command, go to: ${RED}https://github.com/Gh0stAn0n/vpnip/issues ${STOP}"
 
