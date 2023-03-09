@@ -35,7 +35,7 @@ must download OpenVPN first, to do so type:
 
 └─$ sudo apt install openvpn
 
-└─$ sudo openvpn MACHINE.ovpn
+└─$ sudo openvpn FILENAME.ovpn
 
 ### Script Usage
 
