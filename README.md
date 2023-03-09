@@ -17,11 +17,13 @@ The vpnip command is a simple Linux command that helps you retrieve the eth0 ip 
 
 > ADVANTAGES:
 
-- faster and easier.
-
-- can be shown inside of the metasploit framework.
+- available for OpenVPN alternatives.
 
 - no files will remain on the current directory.
+
+- faster and easier to use.
+
+- can be shown inside of the metasploit framework.
 
 > DISADVANTAGES:
 
@@ -32,6 +34,8 @@ The vpnip command is a simple Linux command that helps you retrieve the eth0 ip 
 must download OpenVPN first, to do so type:
 
 └─$ sudo apt install openvpn
+
+└─$ sudo openvpn MACHINE.ovpn
 
 ### Script Usage
 
