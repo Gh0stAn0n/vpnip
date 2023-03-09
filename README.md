@@ -29,7 +29,7 @@ The vpnip command is a simple Linux command that helps you retrieve the eth0 ip 
 
 - none.
 
-### requirement
+### Requirement
 
 must download OpenVPN first, to do so type:
 
@@ -44,6 +44,10 @@ launch the script by typing:
 └─$ bash vpnip.sh
 
 └─$ exit
+
+### Command Usage
+
+└─$ vpnip
 
 ### Download
 
