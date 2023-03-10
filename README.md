@@ -17,7 +17,7 @@ The vpnip command is a simple Linux command that helps you retrieve the eth0 ip 
 
 > ADVANTAGES:
 
-- available for OpenVPN alternatives.
+- available for openVPN alternatives.
 
 - no files will remain on the current directory.
 
