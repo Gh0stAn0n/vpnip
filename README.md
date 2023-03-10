@@ -37,6 +37,10 @@ must download OpenVPN first, to do so type:
 
 └─$ sudo openvpn FILENAME.ovpn
 
+### Download
+
+    git clone https://github.com/Gh0stAn0n/vpnip
+
 ### Script Usage
 
 launch the script by typing:
@@ -48,7 +52,3 @@ launch the script by typing:
 ### Command Usage
 
 └─$ vpnip
-
-### Download
-
-    git clone https://github.com/Gh0stAn0n/vpnip
