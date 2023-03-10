@@ -39,7 +39,7 @@ must download OpenVPN first, to do so type:
 
 ### Download
 
-    git clone https://github.com/Gh0stAn0n/vpnip
+    git clone https://github.com/Gh0stAn0n/vpnip && cd vpnip
 
 ### Script Usage
 
