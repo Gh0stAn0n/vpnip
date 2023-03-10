@@ -7,24 +7,30 @@ STOP='\e[0m'
 
 check=$(cat ~/.bashrc)
 
-   echo ""
+   sleep 1; echo ""
+
+	if [[ $PWD = "/usr/bin" ]]
+	then
+	echo -e " ${RED}ERR:${STOP} you are currently in: /usr/bin directory, please change the path to any other location before running the script again."
+	exit
+	fi
 
 	if [[ $check = *vpnip* ]]
 	then
 	echo -e " ${ORANGE}-${STOP} vpnip command has already been added, file removal in progress..."
-	echo ""
+	sleep 1; echo ""
 	echo -e " ${ORANGE}-${STOP} if you encounter any issue with the command, go to: ${RED}https://github.com/Gh0stAn0n/vpnip/issues ${STOP}"
-	rm vpnip
-
+	
 	else
 	chmod +x vpnip
 	mv vpnip /usr/bin/vpnip
 	echo "alias vpnip='/usr/bin/vpnip'" >> ~/.bashrc
 	
         echo -e " ${ORANGE}-${STOP} vpnip command has been added, file removal in progress..."
-        echo ""
-        echo -e " ${ORANGE}-${STOP} restart the terminal by closing it, and type ${ORANGE}'${STOP}${LGREEN}vpnip${STOP}${ORANGE}'${STOP} to activate."
+        sleep 1; echo ""
+        echo -e " ${ORANGE}-${STOP} restart the terminal by closing it, and type ${ORANGE}'${STOP}${LGREEN}vpnip${STOP}${ORANGE}'${STOP} to execute."
 	fi
 
 	sleep 3
-	rm vpnip.sh
+	cd ..		#remove theses to keep the files directory
+	rm -rf vpnip    #
