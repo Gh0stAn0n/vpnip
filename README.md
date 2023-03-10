@@ -19,19 +19,21 @@ The vpnip command is a simple Linux command that helps you retrieve the eth0 ip 
 
 - available for openVPN alternatives.
 
-- no files will remain on the current directory.
+- fast and easy to use.
 
 - can be shown inside of the metasploit framework for an easier LHOST setting.
 
-- faster and easier to use.
+- will autoremove all irrelevant files after setting the necessary.
 
 > DISADVANTAGES:
 
-- might require sudo privileges to auto-remove.
+- might require sudo privileges to autoremove.
 
 ### Requirement
 
-must download openVPN first, to do so type:
+must download [openVPN](https://github.com/OpenVPN/openvpn/) to enable tun0, to do so type:
+
+([openVPN alternatives](https://alternativeto.net/software/openvpn/?platform=linux))
 
 └─$ sudo apt install openvpn
 
