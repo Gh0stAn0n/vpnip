@@ -5,11 +5,11 @@ ORANGE='\e[1;93m'
 RED='\e[1;91m'
 STOP='\e[0m'
 
-check=$(cat ~/.bashrc)
+check=$(ls /usr/bin | grep vpnip)
 
    sleep 1; echo ""
 
-	if [[ $check = *vpnip* ]]
+	if [[ $check == vpnip ]]
 	then
 	echo -e " ${ORANGE}-${STOP} vpnip command has already been added, files removal in progress..."
 	sleep 1; echo ""
