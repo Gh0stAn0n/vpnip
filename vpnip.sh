@@ -9,12 +9,6 @@ check=$(cat ~/.bashrc)
 
    sleep 1; echo ""
 
-	if [[ $PWD = "/usr/bin" ]]
-	then
-	echo -e " ${RED}ERR:${STOP} you are currently in: /usr/bin directory, please change the path to any other location before running the script again."
-	exit
-	fi
-
 	if [[ $check = *vpnip* ]]
 	then
 	echo -e " ${ORANGE}-${STOP} vpnip command has already been added, files removal in progress..."
