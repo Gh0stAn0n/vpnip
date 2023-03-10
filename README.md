@@ -21,7 +21,7 @@ The vpnip command is a simple Linux command that helps you retrieve the eth0 ip 
 
 - no files will remain on the current directory.
 
-- can be shown inside of the metasploit framework for easier LHOST setting.
+- can be shown inside of the metasploit framework for an easier LHOST setting.
 
 - faster and easier to use.
 
