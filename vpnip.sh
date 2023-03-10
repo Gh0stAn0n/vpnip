@@ -25,6 +25,6 @@ check=$(cat ~/.bashrc)
         echo -e " ${ORANGE}-${STOP} restart the terminal by closing it, and type ${ORANGE}'${STOP}${LGREEN}vpnip${STOP}${ORANGE}'${STOP} to execute."
 	fi
 
-	sleep 3
+	sleep 3         #
 	cd ..		#remove theses to keep the files directory
 	rm -rf vpnip    #
