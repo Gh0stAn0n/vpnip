@@ -11,7 +11,7 @@
   </p>
 </p>
 
-The vpnip command is a simple Linux command that helps you retrieve the eth0 ip and the tun0 ip of your system when you are using a VPN connection. This command is designed to get the [OpenVPN](https://github.com/OpenVPN/openvpn/) (or [alternative software])(https://alternativeto.net/software/openvpn/?platform=linux) ip faster when enabled, which is useful for TryHackMe, HackTheBox, or any other penetration testing activities.
+The vpnip command is a simple Linux command that helps you retrieve the eth0 ip and the tun0 ip of your system when you are using a VPN connection. This command is designed to retrieve the [OpenVPN](https://github.com/OpenVPN/openvpn/) or [alternative software](https://alternativeto.net/software/openvpn/?platform=linux) ip faster when enabled, which is useful for TryHackMe, HackTheBox, or any other hacking platform activities.
 
 ### Possibility and Capability
 
