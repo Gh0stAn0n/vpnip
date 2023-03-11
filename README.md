@@ -31,11 +31,13 @@ The vpnip command is a simple Linux command that helps you retrieve the eth0 ip 
 
 ### Requirement
 
-to enable tun0, you must download OpenVPN or alternative software. To do this, type:
+(for OpenVPN alternatives please check the link in the above section)
+
+to enable tun0, you must download OpenVPN by typing:
 
 └─$ sudo apt install openvpn
 
-└─$ sudo openvpn FILENAME.ovpn
+└─$ sudo openvpn <FILENAME>.ovpn
 
 ### Download
 
