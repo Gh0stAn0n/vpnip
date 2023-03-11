@@ -37,7 +37,7 @@ to enable tun0, you must download OpenVPN by typing:
 
 └─$ sudo apt install openvpn
 
-└─$ sudo openvpn <FILENAME>.ovpn
+└─$ sudo openvpn FILENAME.ovpn
 
 ### Download
 
