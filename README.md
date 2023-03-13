@@ -3,7 +3,7 @@
 <p align="center">
    </a>
       <a href="https://github.com/Gh0stAn0n/vpnip">
-      <img src="https://img.shields.io/badge/Version-1.0.0-darkgreen">
+      <img src="https://img.shields.io/badge/Version-1.5.0-darkgreen">
         <img src="https://img.shields.io/badge/Release%20Date-febuary%202023-purple">
   <img src="https://shields.io/badge/Bash-100%25-066da5">
   <img src="https://shields.io/badge/Platform-Linux-darkred">
