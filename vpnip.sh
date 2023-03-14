@@ -17,7 +17,7 @@ check=$(ls /usr/bin | grep vpnip)
 	
 	else
 	chmod +x vpnip
-	mv vpnip /usr/bin/vpnip
+	sudo mv vpnip /usr/bin/vpnip
 	echo "alias vpnip='/usr/bin/vpnip'" >> ~/.bashrc
 	
         echo -e " ${ORANGE}-${STOP} vpnip command has been added, files removal in progress..."
