@@ -25,7 +25,7 @@ The vpnip command is a simple Linux command that helps you retrieve the eth0 ip 
 
 > DISADVANTAGES:
 
-- might require sudo privileges for autoremoval.
+- require sudo privileges.
 
 ### Requirement
 
