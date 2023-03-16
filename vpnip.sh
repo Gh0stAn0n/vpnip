@@ -26,5 +26,5 @@ check=$(ls /usr/bin | grep vpnip)
 	fi
 
 	sleep 3         #
-	cd ..		#remove theses to keep the files directory
+	cd ..           #remove theses to keep the files directory
 	rm -rf vpnip    #
